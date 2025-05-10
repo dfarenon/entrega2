@@ -1,0 +1,8 @@
+CREATE TABLE Vehiculos (
+    Placa VARCHAR(20) NOT NULL UNIQUE PRIMARY KEY,
+    Marca VARCHAR(50) NOT NULL,
+    Modelo VARCHAR(50) NOT NULL,
+    Año INT NOT NULL,
+    Color VARCHAR(30),
+    NumeroVIN VARCHAR(17) UNIQUE
+);
